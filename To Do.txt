@@ -1,0 +1,11 @@
+- Create a turtle player that starts at the bottom and listen for up
+
+- Create cars that are 20 pix high 40 pix wide that are randomly generated that move from left to to right. Not in top 50 pix or bottom 50 pix
+HINT: generate a new care only every 6th game loop
+
+- Detect when turtle hits a car (stop the game)
+
+- Detect when the turtle player has reached the top edge of the screen (i.e., reached the FINISH_LINE_Y). When this happens, return the turtle to the starting position and increase the speed of the cars. Hint: think about creating an attribute and using the MOVE_INCREMENT to increase the car speed.
+
+-
+Create a scoreboard that keeps track of which level the user is on. Every time the turtle player does a successful crossing, the level should increase. When the turtle hits a car, GAME OVER should be displayed in the centre. If you get stuck, check the video walkthrough in Step 7
